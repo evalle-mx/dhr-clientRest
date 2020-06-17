@@ -1,0 +1,72 @@
+
+ ////////////////////////////////////////////////////// 
+ Método: get	uriCode: POSTULANT.G	endPoint: /module/postulante/get	javaClass: PostulantAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: update	uriCode: POSTULANT.U	endPoint: /module/postulante/update	javaClass: PostulantAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: count	uriCode: 	endPoint: /module/postulante/count	javaClass: PostulantAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....

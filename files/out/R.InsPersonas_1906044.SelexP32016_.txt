@@ -1,0 +1,14 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++  PersonaFullFromJson.createPersonas  +++++++++++++++++++++++++++++++++ 
++ CV_JSON_DIR= /home/dothr/Documents/SELEX/JsonUI/PersonaRecreate/curriculumManagement/4.SelexP32016/
++ WEB_RESOURCE= http://localhost:8080/AppTransactionalStructured
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Se genera mapa de secuencias
+Hay conexión con BD.
+ Comprobando Conexión con AppTransactional (Ping) ... 
+<Exception> en createPersona: Already connected
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+ +++++++++++++++++++  FIN de Proceso PersonaFullFromJson.createPersona   ++++++++++++++++ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

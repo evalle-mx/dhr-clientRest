@@ -1,0 +1,48 @@
+
+ ////////////////////////////////////////////////////// 
+ Método: create	uriCode: 	endPoint: /module/notification/create	javaClass: NotificationAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: get	uriCode: NOTIFICATION.G	endPoint: /module/notification/get	javaClass: NotificationAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....

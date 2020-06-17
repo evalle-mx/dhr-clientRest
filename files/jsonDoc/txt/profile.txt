@@ -1,0 +1,264 @@
+
+ ////////////////////////////////////////////////////// 
+ Método: createpublic	uriCode: PROFILE.CPB	endPoint: /module/profile/createpublic	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: createprivate	uriCode: PROFILE.CPV	endPoint: /module/profile/createprivate	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: update	uriCode: PROFILE.U	endPoint: /module/profile/update	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: read	uriCode: PROFILE.R	endPoint: /module/profile/read	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: delete	uriCode: PROFILE.D	endPoint: /module/profile/delete	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: get	uriCode: PROFILE.G	endPoint: /module/profile/get	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: updateAssociation	uriCode: PROFILE.A	endPoint: /module/profile/updateAssociation	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: textcreate	uriCode: PROFILETEX.C	endPoint: /module/profile/textcreate	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: textupdate	uriCode: PROFILETEX.U	endPoint: /module/profile/textupdate	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: textdelete	uriCode: PROFILETEX.D	endPoint: /module/profile/textdelete	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: textget	uriCode: PROFILETEX.G	endPoint: /module/profile/textget	javaClass: ProfileAdapterAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....

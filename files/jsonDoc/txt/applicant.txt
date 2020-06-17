@@ -1,0 +1,72 @@
+
+ ////////////////////////////////////////////////////// 
+ Método: searchApplicants	uriCode: APPLICANT.S	endPoint: /module/applicant/searchApplicants	javaClass: ApplicantAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: getApplicants	uriCode: APPLICANT.G	endPoint: /module/applicant/getApplicants	javaClass: ApplicantAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: setResumePublication	uriCode: PERSON.P	endPoint: /module/applicant/setResumePublication	javaClass: ApplicantAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....

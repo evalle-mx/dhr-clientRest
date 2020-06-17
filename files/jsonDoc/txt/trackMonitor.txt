@@ -1,0 +1,72 @@
+
+ ////////////////////////////////////////////////////// 
+ Método: read	uriCode: TRACKMONITOR.R	endPoint: /module/trackMonitor/read	javaClass: TrackingMonitorAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: update	uriCode: TRACKMONITOR.U	endPoint: /module/trackMonitor/update	javaClass: TrackingMonitorAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....
+
+ ////////////////////////////////////////////////////// 
+ Método: delete	uriCode: TRACKMONITOR.D	endPoint: /module/trackMonitor/delete	javaClass: TrackingMonitorAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....

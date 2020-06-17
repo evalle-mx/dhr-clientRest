@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="expires" content="0"> 
+	<meta http-equiv="Cache-Control" content="no-cache">
+ 	<meta http-equiv="Pragma" CONTENT="no-cache">
+	<title>{{TITLEVIEW}}</title>
+
+	<link rel="stylesheet" type="text/css" href="/resources/bootstrap-3.3.5-dist/css/bootstrap.css">
+	<style type="text/css">
+		.dhr-error {
+		  color:red;  /* #b94a48;*/
+		}
+	</style>
+</head>
+<body>
+
+
+	<div>
+		<div >
+			<table class="table table-hover">
+				<tr><td><b>Método</b></td><td>{{METHOD}}</td></tr>
+				<tr><td><b>uriCode</b></td><td>{{URICODE}}</td></tr>
+				<tr><td><b>endPoint</b></td><td>{{ENDPOINT}}</td></tr>
+				<tr><td><b>javaClass</b></td><td>{{JAVACLASS}}</td></tr>
+			</table>		
+		</div>
+
+		<p>
+			<div class="panel panel-info" >
+				<div class="panel-heading">Json entrada</div>
+				<div class="panel-body">
+					<pre>
+{
+  "idEmpresaConf":""    ** 
+  "idPersona":"",	*
+}</pre>
+				</div>
+			</div>
+		</p>
+		<p>
+			<div class="panel panel-success" >
+				<div class="panel-heading">Json entrada <b>Ejemplo</b></div>
+				<div class="panel-body">
+					<pre>
+{
+  "idEmpresaConf":"1" 
+  "idPersona":"1"
+}</pre>
+				</div>
+			</div>
+		</p>
+
+		<hr>
+
+		<p>
+			<div class="panel panel-info" >
+				<div class="panel-heading">Json Salida</div>
+				<div class="panel-body">
+					<pre>[{"name":"","value":"","code":"","type":"","message":"}]</pre>
+				</div>
+			</div>
+		</p>
+		<p>
+			<div class="panel panel-success" >
+				<div class="panel-heading">Json Salida <b>Ejemplo</b></div>
+				<div class="panel-body">
+					<b>a) Éxito</b>
+					<pre> [{"name":"idEscolaridad","value":"1","code":"004","type":"I"}]</pre>
+					
+					<b>b) Alguno de los datos requeridos es nulo</b>
+					<pre> [{"code":"006","type":"F","message":"La construcción del message no es correcta, favor de verificar la especificación correspondiente"}]</pre>
+
+					<span class="dhr-error">
+						<b>c) Error de sistema</b>
+						<pre> [{"code":"006","type":"F","message":"Error de sistema"}]</pre>
+					</span>
+				</div>
+			</div>
+		</p>
+	</div>
+	
+</body>
+</html>

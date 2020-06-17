@@ -1,0 +1,4 @@
+###  Conectando con XE 
+
+ #Termina proceso, cerrando conexión 
+#######  FIN DE PROCESO   ##### 

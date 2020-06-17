@@ -1,0 +1,206 @@
+/module/academicBackground/create;ACADBACK.C;AcademicBackgroundAdapterRest
+/module/academicBackground/update;ACADBACK.U;AcademicBackgroundAdapterRest
+/module/academicBackground/get;ACADBACK.G;AcademicBackgroundAdapterRest
+/module/academicBackground/delete;ACADBACK.D;AcademicBackgroundAdapterRest
+/admin/management/menu;ADMIN.M;AdminAdapterRest
+/admin/management/updpwd;PERSON.PW;AdminAdapterRest
+/admin/management/lastDateSyncDocs;SYNCDOCS.LD;AdminAdapterRest
+/admin/management/lastDateRemodel;REMODELING.LD;AdminAdapterRest
+/admin/management/lastDateReLoadCoreSolr;RELOADCORESOLR.LD;AdminAdapterRest
+/admin/management/lastDateReclassDocs;RECLASSDOCS.LD;AdminAdapterRest
+/admin/management/set;  ;AdminAdapterRest
+/admin/management/ping;  ;AdminAdapterRest
+/module/applicant/searchApplicants;APPLICANT.S;ApplicantAdapterRest
+/module/applicant/getApplicants;APPLICANT.G;ApplicantAdapterRest
+/module/applicant/setResumePublication;PERSON.P;ApplicantAdapterRest
+/module/automobile/create;AUTOMOBILE.C;AutomovilAdapterRest
+/module/automobile/read;AUTOMOBILE.R;AutomovilAdapterRest
+/module/automobile/update;AUTOMOBILE.U;AutomovilAdapterRest
+/module/automobile/delete;AUTOMOBILE.D;AutomovilAdapterRest
+/module/bond/create;BOND.C;BonoAdapterRest
+/module/bond/read;BOND.R;BonoAdapterRest
+/module/bond/update;BOND.U;BonoAdapterRest
+/module/bond/delete;BOND.D;BonoAdapterRest
+/module/calendar/getdates;CALENDAR.GD;CalendarioAdapterRest
+/admin/catalogue/getCatalogueValues;CATALOGUE.G;CataloguesAdapterRest
+/admin/catalogue/createCatalogueRecord;CATALOGUE.C;CataloguesAdapterRest
+/admin/catalogue/updateCatalogueRecord;CATALOGUE.U;CataloguesAdapterRest
+/admin/catalogue/getAreas;CATAREA.G;CataloguesAdapterRest
+/admin/catalogue/getCatalogueByFilter;  ;CataloguesAdapterRest
+/module/compensation/create;COMPENSATION.C;CompensationAdapterRest
+/module/compensation/read;COMPENSATION.R;CompensationAdapterRest
+/module/compensation/update;COMPENSATION.U;CompensationAdapterRest
+/module/compensation/delete;COMPENSATION.D;CompensationAdapterRest
+/module/positionCompet/update;POSITIONCOMPETENCE.U;CompetenceAdapterRest
+/module/positionCompet/get;  ;CompetenceAdapterRest
+/module/contact/create;CONTACT.C;ContactAdapterRest
+/module/contact/update;CONTACT.U;ContactAdapterRest
+/module/contact/read;  ;ContactAdapterRest
+/module/contact/get;  ;ContactAdapterRest
+/module/contact/delete;CONTACT.D;ContactAdapterRest
+/module/email;  ;CorreoTceAdapterRest
+/module/curriculumManagement/create;  ;CurriculumAdapterRest
+/module/curriculumManagement/recovery;  ;CurriculumAdapterRest
+/module/curriculumManagement/restore;  ;CurriculumAdapterRest
+/module/curriculumManagement/update;PERSON.U;CurriculumAdapterRest
+/module/curriculumManagement/read;PERSON.R;CurriculumAdapterRest
+/module/curriculumManagement/exists;  ;CurriculumAdapterRest
+/module/curriculumManagement/initial;  ;CurriculumAdapterRest
+/module/curriculumManagement/uricodes;  ;CurriculumAdapterRest
+/module/curriculumManagement/delete;PERSON.D;CurriculumAdapterRest
+/module/curriculumManagement/createcomplete;  ;CurriculumAdapterRest
+/module/curriculumManagement/createMasive;  ;CurriculumAdapterRest
+/module/curriculumManagement/dataconfmasive;  ;CurriculumAdapterRest
+/module/curriculumManagement/get;PERSON.G;CurriculumAdapterRest
+/module/curriculumManagement/createManual;PERSON.CM;CurriculumAdapterRest
+/module/curriculumCompany/read;COMPANY.R;CurriculumEmpresaAdapterRest
+/module/curriculumCompany/update;COMPANY.U;CurriculumEmpresaAdapterRest
+/module/curriculumCompany/create;COMPANY.C;CurriculumEmpresaAdapterRest
+/module/curriculumCompany/get;COMPANY.G;CurriculumEmpresaAdapterRest
+/module/curriculumCompany/setEnterpriseResumePublication;COMPANY.P;CurriculumEmpresaAdapterRest
+/module/curriculumCompany/enableEdition;  ;CurriculumEmpresaAdapterRest
+/module/curriculumCompany/requestAssociation;ASSOCIATE.C;CurriculumEmpresaAdapterRest
+/module/curriculumCompany/updateAssociation;ASSOCIATE.U;CurriculumEmpresaAdapterRest
+/module/curriculumCompany/getAssociates;ASSOCIATE.G;CurriculumEmpresaAdapterRest
+/module/classify/get;DOCSCLASS.G;DocumentoClasificacionAdapterRest
+/module/classify/update;DOCSCLASS.U;DocumentoClasificacionAdapterRest
+/module/classify/loadTokens;TOKENUPLOAD.C;DocumentoClasificacionAdapterRest
+/module/classify/classifyByLot;  ;DocumentoClasificacionAdapterRest
+/module/enterpriseParameter/get;EPARAMS.G;EnterpriseParameterAdapterRest
+/module/enterpriseParameter/create;EPARAMS.C;EnterpriseParameterAdapterRest
+/module/enterpriseParameter/update;EPARAMS.U;EnterpriseParameterAdapterRest
+/module/enterpriseParameter/delete;EPARAMS.D;EnterpriseParameterAdapterRest
+/module/enterpriseParameter/updmultiple;EPARAMS.M;EnterpriseParameterAdapterRest
+/module/enterpriseParameter/reload;EPARAMS.RL;EnterpriseParameterAdapterRest
+/<common>/ping;  ;ErrorMessageAdapterRest
+/module/file/update;  ;FileAdapterRest
+/module/file/get;FILE.G;FileAdapterRest
+/module/file/delete;FILE.D;FileAdapterRest
+/module/file/dataconf;  ;FileAdapterRest
+/module/file/read;FILE.R;FileAdapterRest
+/module/handshake/create;HANDSHAKE.C;HandShakeAdapterRest
+/module/handshake/updatestatus;  ;HandShakeAdapterRest
+/module/password;  ;HistoricoPasswordAdapterRest
+/module/language/create;LANGUAGE.C;LanguageAdapterRest
+/module/language/update;LANGUAGE.U;LanguageAdapterRest
+/module/language/delete;LANGUAGE.D;LanguageAdapterRest
+/module/language/get;  ;LanguageAdapterRest
+/module/location/create;LOCATION.C;LocationAdapterRest
+/module/location/update;LOCATION.U;LocationAdapterRest
+/module/location/delete;LOCATION.D;LocationAdapterRest
+/module/location/get;LOCATION.G;LocationAdapterRest
+/logout/delete;  ;LogOutAdapterRest
+/module/modeloRsc/create;MODELRSC.C;ModeloRscAdapterRest
+/module/modeloRsc/read;MODELRSC.R;ModeloRscAdapterRest
+/module/modeloRsc/update;MODELRSC.U;ModeloRscAdapterRest
+/module/modeloRsc/delete;MODELRSC.D;ModeloRscAdapterRest
+/module/modeloRsc/get;MODELRSC.G;ModeloRscAdapterRest
+/module/modeloRsc/getRols;  ;ModeloRscAdapterRest
+/module/modeloRscPos/create;MODELRSCPOS.C;ModeloRscPosAdapterRest
+/module/modeloRscPos/read;MODELRSCPOS.R;ModeloRscPosAdapterRest
+/module/modeloRscPos/update;MODELRSCPOS.U;ModeloRscPosAdapterRest
+/module/modeloRscPos/get;MODELRSCPOS.G;ModeloRscPosAdapterRest
+/module/modeloRscPos/delete;MODELRSCPOS.D;ModeloRscPosAdapterRest
+/module/modeloRscPosFase/create;MODELRSCPOSF.C;ModeloRscPosFaseAdapterRest
+/module/modeloRscPosFase/update;MODELRSCPOSF.U;ModeloRscPosFaseAdapterRest
+/module/modeloRscPosFase/delete;MODELRSCPOSF.D;ModeloRscPosFaseAdapterRest
+/module/monitor/create;MONITOR.C;MonitorAdapterRest
+/module/monitor/get;MONITOR.G;MonitorAdapterRest
+/module/monitor/delete;MONITOR.D;MonitorAdapterRest
+/module/notification/create;  ;NotificationAdapterRest
+/module/notification/get;NOTIFICATION.G;NotificationAdapterRest
+/module/perfilNgram/create;  ;PerfilTextoNgramAdapterRest
+/module/perfilNgram/update;  ;PerfilTextoNgramAdapterRest
+/module/perfilNgram/delete;  ;PerfilTextoNgramAdapterRest
+/module/perfilNgram/get;  ;PerfilTextoNgramAdapterRest
+/admin/permission/get;PERMISSION.G;PermissionAdapterRest
+/admin/permission/update;PERMISSION.U;PermissionAdapterRest
+/admin/permission/create;PERMISSION.C;PermissionAdapterRest
+/admin/permission/delete;PERMISSION.D;PermissionAdapterRest
+/module/personCert/create;PERSCERT.C;PersonCertificationAdapterRest
+/module/personCert/update;PERSCERT.U;PersonCertificationAdapterRest
+/module/personCert/delete;PERSCERT.D;PersonCertificationAdapterRest
+/module/personCert/get;  ;PersonCertificationAdapterRest
+/module/personSkill/create;PERSKILL.C;PersonSkillAdapterRest
+/module/personSkill/update;PERSKILL.U;PersonSkillAdapterRest
+/module/personSkill/get;  ;PersonSkillAdapterRest
+/module/personSkill/delete;PERSKILL.D;PersonSkillAdapterRest
+/module/plan/create;PLAN.C;PlanAdapterRest
+/module/plan/read;PLAN.R;PlanAdapterRest
+/module/plan/update;PLAN.U;PlanAdapterRest
+/module/plan/delete;PLAN.D;PlanAdapterRest
+/module/positionCert/create;POSITIONCERT.C;PositionCertAdapterRest
+/module/positionCert/update;POSITIONCERT.U;PositionCertAdapterRest
+/module/positionCert/delete;POSITIONCERT.D;PositionCertAdapterRest
+/module/positionCert/get;  ;PositionCertAdapterRest
+/module/postulante/get;POSTULANT.G;PostulantAdapterRest
+/module/postulante/update;POSTULANT.U;PostulantAdapterRest
+/module/postulante/count;  ;PostulantAdapterRest
+/module/profile/createpublic;PROFILE.CPB;ProfileAdapterAdapterRest
+/module/profile/createprivate;PROFILE.CPV;ProfileAdapterAdapterRest
+/module/profile/update;PROFILE.U;ProfileAdapterAdapterRest
+/module/profile/read;PROFILE.R;ProfileAdapterAdapterRest
+/module/profile/delete;PROFILE.D;ProfileAdapterAdapterRest
+/module/profile/get;PROFILE.G;ProfileAdapterAdapterRest
+/module/profile/updateAssociation;PROFILE.A;ProfileAdapterAdapterRest
+/module/profile/textcreate;PROFILETEX.C;ProfileAdapterAdapterRest
+/module/profile/textupdate;PROFILETEX.U;ProfileAdapterAdapterRest
+/module/profile/textdelete;PROFILETEX.D;ProfileAdapterAdapterRest
+/module/profile/textget;PROFILETEX.G;ProfileAdapterAdapterRest
+/module/reference/create;REFERENCE.C;ReferenceadapterRest
+/module/reference/update;REFERENCE.U;ReferenceadapterRest
+/module/reference/get;  ;ReferenceadapterRest
+/module/reference/delete;REFERENCE.D;ReferenceadapterRest
+/module/report/create;REPORT.C;ReportAdapterRest
+/module/report/delete;  ;ReportAdapterRest
+/admin/rol/get;ROL.G;RolAdapterRest
+/admin/rol/assignPerms;ROL.AP;RolAdapterRest
+/admin/rol/create;ROL.C;RolAdapterRest
+/admin/rol/update;ROL.U;RolAdapterRest
+/admin/rol/delete;ROL.D;RolAdapterRest
+/module/task/syncClassDocs;SYNCHRONIZE.T;SchedulerAdapterRest
+/module/task/reModel;REMODELING.T;SchedulerAdapterRest
+/module/task/reClassification;RECLASIFY.T;SchedulerAdapterRest
+/module/task/searchCandidates;  ;SchedulerAdapterRest
+/module/task/reloadCoreSolr;RELOADCORESOLR.T;SchedulerAdapterRest
+/module/insurance/create;INSURANCE.C;SeguroAdapteRest
+/module/insurance/read;INSURANCE.R;SeguroAdapteRest
+/module/insurance/update;INSURANCE.U;SeguroAdapteRest
+/module/insurance/delete;INSURANCE.D;SeguroAdapteRest
+/module/settlement/get;  ;SettlementAdapterRest
+/module/settlement/create;SETTLEMENT.C;SettlementAdapterRest
+/module/linkedin/create;  ;SocialApiAdapterRest
+/module/salary/create;SALARY.C;SueldoAdapterRest
+/module/salary/read;SALARY.R;SueldoAdapterRest
+/module/salary/update;SALARY.U;SueldoAdapterRest
+/module/salary/delete;SALARY.D;SueldoAdapterRest
+/admin/tipoPermiso/get;TIPOPERMISO.G;TipoPermisoAdapterRest
+/module/trackMonitor/read;TRACKMONITOR.R;TrackingMonitorAdapterRest
+/module/trackMonitor/update;TRACKMONITOR.U;TrackingMonitorAdapterRest
+/module/trackMonitor/delete;TRACKMONITOR.D;TrackingMonitorAdapterRest
+/module/trackPostulante/create;TRACKPOSTULANT.C;TrackingPostulanteAdapterRest
+/module/trackPostulante/confirm;TRACKPOSTULANT.CF;TrackingPostulanteAdapterRest
+/module/trackPostulante/delete;TRACKPOSTULANT.D;TrackingPostulanteAdapterRest
+/module/trackPostulante/rollBack;  ;TrackingPostulanteAdapterRest
+/module/trackPostulante/read;TRACKPOSTULANT.R;TrackingPostulanteAdapterRest
+/module/trackPostulante/update;TRACKPOSTULANT.U;TrackingPostulanteAdapterRest
+/module/trackPostulante/get;TRACKPOSTULANT.G;TrackingPostulanteAdapterRest
+/module/vacation/create;VACATION.C;VacacionesAdapterRest
+/module/vacation/read;VACATION.R;VacacionesAdapterRest
+/module/vacation/update;VACATION.U;VacacionesAdapterRest
+/module/vacation/delete;VACATION.D;VacacionesAdapterRest
+/module/vacancy/create;VACANCY.C;VacancyAdapterRest
+/module/vacancy/update;VACANCY.U;VacancyAdapterRest
+/module/vacancy/delete;VACANCY.D;VacancyAdapterRest
+/module/vacancy/get;VACANCY.G;VacancyAdapterRest
+/module/vacancy/read;VACANCY.R;VacancyAdapterRest
+/module/vacancy/setVacancyPublication;VACANCY.P;VacancyAdapterRest
+/module/vacancy/confirmAddVacancy;  ;VacancyAdapterRest
+/module/voucher/create;VOUCHER.C;ValeAdapterRest
+/module/voucher/read;VOUCHER.R;ValeAdapterRest
+/module/voucher/update;VOUCHER.U;ValeAdapterRest
+/module/voucher/delete;VOUCHER.D;ValeAdapterRest
+/module/workExperience/create;WORKEXP.C;WorkExperienceAdapterRest
+/module/workExperience/update;WORKEXP.U;WorkExperienceAdapterRest
+/module/workExperience/get;WORKEXP.G;WorkExperienceAdapterRest
+/module/workExperience/delete;WORKEXP.D;WorkExperienceAdapterRest

@@ -1,0 +1,31 @@
+/*  UPDATE de correos electrónicos para prueba */
+
+UPDATE persona SET email = 'alexchim2012@clicktoday.com.mx' WHERE id_persona=162; -- alexchim2012@gmail.com
+UPDATE persona SET email = 'carlofrancesco_3@clicktoday.com.mx' WHERE id_persona=174; -- carlofrancesco_3@hotmail.com
+UPDATE persona SET email = 'cain_espinosa@clicktoday.com.mx' WHERE id_persona=175; -- cain_espinosa@hotmail.com
+UPDATE persona SET email = 'edgar-yo@clicktoday.com.mx' WHERE id_persona=176; -- edgar-yo@hotmail.com
+UPDATE persona SET email = 'ldeverdun@clicktoday.com.mx' WHERE id_persona=177; -- ldeverdun@gmail.com
+UPDATE persona SET email = 'spokway@clicktoday.com.mx' WHERE id_persona=178; -- spokway@hotmail.com
+UPDATE persona SET email = 'alvi.herper93@clicktoday.com.mx' WHERE id_persona=179; -- alvi.herper93@gmail.com
+UPDATE persona SET email = 'fla_bernal@clicktoday.com.mx' WHERE id_persona=181; -- fla_bernal@yahoo.com.mx
+UPDATE persona SET email = 'alejandrofitz70@clicktoday.com.mx' WHERE id_persona=182; -- alejandrofitz70@gmail.com
+UPDATE persona SET email = 'amonmar75@clicktoday.com.mx' WHERE id_persona=183; -- amonmar75@gmail.com
+UPDATE persona SET email = 'juancar70mx@clicktoday.com.mx' WHERE id_persona=184; -- juancar70mx@yahoo.com.mx
+UPDATE persona SET email = 'omanuel107@clicktoday.com.mx' WHERE id_persona=185; -- omanuel107@gmail.com
+UPDATE persona SET email = 'jes_mtz_alva@clicktoday.com.mx' WHERE id_persona=187; -- jes_mtz_alva@hotmail.com
+UPDATE persona SET email = 'asgiqm@clicktoday.com.mx' WHERE id_persona=188; -- asgiqm@hotmail.com
+UPDATE persona SET email = 'alcocerlluchmaciel@clicktoday.com.mx' WHERE id_persona=189; -- alcocerlluchmaciel@hotmail.com
+UPDATE persona SET email = 'rhjj72@clicktoday.com.mx' WHERE id_persona=190; -- rhjj72@yahoo.com.mx
+UPDATE persona SET email = 'renemartinezhdz77@clicktoday.com.mx' WHERE id_persona=191; -- renemartinezhdz77@hotmail.com
+UPDATE persona SET email = 'iqyordano@clicktoday.com.mx' WHERE id_persona=192; -- iqyordano@hotmail.com
+UPDATE persona SET email = 'iqchristiancabrera@clicktoday.com.mx' WHERE id_persona=193; -- iqchristiancabrera@gmail.com 
+UPDATE persona SET email = 'razo_claudia@clicktoday.com.mx' WHERE id_persona=196; -- razo_claudia@yahoo.com.mx
+UPDATE persona SET email = 'dirgnivera2003@clicktoday.com.mx' WHERE id_persona=197; -- dirgnivera2003@yahoo.com.mx
+UPDATE persona SET email = 'lgch2000@clicktoday.com.mx' WHERE id_persona=198; -- lgch2000@gmail.com
+UPDATE persona SET email = 'mariaggrmx@clicktoday.com.mx' WHERE id_persona=199; -- mariaggrmx@hotmail.com
+UPDATE persona SET email = 'danielcruzj2000@clicktoday.com.mx' WHERE id_persona=200; -- danielcruzj2000@yahoo.com.mx
+UPDATE persona SET email = 'garcastiva@clicktoday.com.mx' WHERE id_persona=201; -- garcastiva@hotmail.com
+UPDATE persona SET email = 'jimmy_040@clicktoday.com.mx' WHERE id_persona=202; -- jimmy_040@hotmail.com
+UPDATE persona SET email = 'sdiaza76@clicktoday.com.mx' WHERE id_persona=203; -- sdiaza76@hotmail.com
+UPDATE persona SET email = 'luis_arico@clicktoday.com.mx' WHERE id_persona=204; -- luis_arico@hotmail.com
+UPDATE persona SET email = 'Maricela_Alvarado1703@clicktoday.com.mx' WHERE id_persona=205; -- Maricela_Alvarado1703@yahoo.com.mx

@@ -1,0 +1,217 @@
+1;;ACADBACK.C;/module/academicBackground/create;URI para crear un nuevo registro de trayectoria Académica;1;;t;t;t;t;t
+2;;ACADBACK.D;/module/academicBackground/delete;URI para eliminar un registro de trayectoria Académica;1;;t;t;t;t;t
+3;;ACADBACK.G;/module/academicBackground/get;URI para obtener un registro de trayectoria Académica;1;;t;t;t;t;t
+4;;ACADBACK.U;/module/academicBackground/update;URI para actualizar un registro de trayectoria Académica;1;;t;t;t;t;t
+5;;ADMIN.M;/admin/management/menu;URI para obtener el menu;1;;t;t;t;t;t
+6;;APPLICANT.G;/module/applicant/getApplicants;URI para obtener Candidatos obtenidos por proceso de Applicant;1;;t;t;f;t;t
+7;;APPLICANT.S;/module/applicant/searchApplicants;URI para procesar datos y generar candidatos que seran almacenados en persistencia;1;;t;t;f;t;t
+8;;APPLICANTVACANCY.R;/module/applicant/readVacancy;URI para obtener informacion de la vacante solicitada;1;;t;t;f;t;t
+9;;ASSOCIATE.C;/module/curriculumCompany/requestAssociation;URI para Crear nueva relación de solicitud de asociación a empresa;1;;t;t;f;f;f
+10;;ASSOCIATE.G;/module/curriculumCompany/getAssociates;URI para obtener lista de personas con solicitud en empresa;1;;t;t;f;f;f
+11;;ASSOCIATE.U;/module/curriculumCompany/updateAssociation;URI para modificar/añadir relaciónes Con empresa;1;;t;t;t;t;t
+12;;AUTOMOBILE.C;/module/automobile/create;URI para crear un nuevo registro de Automovil;1;;t;t;t;t;t
+13;;AUTOMOBILE.D;/module/automobile/delete;URI para eliminar un registro de Automovil;1;;t;t;t;t;t
+14;;AUTOMOBILE.R;/module/automobile/read;URI para obtener un registro de Automovil;1;;t;t;t;t;t
+15;;AUTOMOBILE.U;/module/automobile/update;URI para actualizar un registro de Automovil;1;;t;t;t;t;t
+16;;BOND.C;/module/bond/create;URI para crear un nuevo registro de Bono;1;;t;t;t;t;t
+17;;BOND.D;/module/bond/delete;URI para eliminar un registro de Bono;1;;t;t;t;t;t
+18;;BOND.R;/module/bond/read;URI para obtener un registro de Bono;1;;t;t;t;t;t
+19;;BOND.U;/module/bond/update;URI para actualizar un registro de Bono;1;;t;t;t;t;t
+20;;CALENDAR.GD;/module/calendar/getdates;lista de fechas con su correspondiente lista de horas disponibles;1;;t;t;f;t;t
+21;;CATALOGUE.C;/admin/catalogue/createCatalogueRecord;URI para crear registro de catalogo;1;;t;t;f;f;f
+22;;CATALOGUE.G;/admin/catalogue/getCatalogueValues;URI para obtener Json de Catalogo y/o Catalogos;1;;t;t;t;t;t
+23;;CATALOGUE.U;/admin/catalogue/updateCatalogueRecord;URI para actualizar registro de catalogo;1;;t;t;f;f;f
+24;;CATAREA.G;/admin/catalogue/getAreas;URI para obtener Json personalizado para catalogo de area Dinamico;1;;t;t;f;t;t
+25;;COMPANY.C;/module/curriculumCompany/create;URI para insertar nuevo registro(s) de Empresas relacionada a persona;1;;t;t;f;f;f
+26;;COMPANY.DIS;/module/curriculumCompany/disassociate;URI para dessociar una persona de una empresa;1;;t;t;f;f;f
+27;;COMPANY.FS;/module/curriculumCompany/findSimilar;URI para obtener lista de registro(s) de Empresas que coincidan con parametros de busqueda;1;;t;t;f;t;t
+28;;COMPANY.G;/module/curriculumCompany/get;URI para obtener lista de registro(s) de Empresas relacionadas a persona;1;;t;t;t;t;t
+29;;COMPANY.P;/module/curriculumCompany/setEnterpriseResumePublication;URI para publicar un cv empresarial;1;;t;t;f;f;f
+30;;COMPANY.R;/module/curriculumCompany/read;URI para obtener registro (unico) de Empresa por ID;1;;t;t;t;t;t
+31;;COMPANY.U;/module/curriculumCompany/update;URI para actualizar registro (unico) de Empresa por ID;1;;t;t;t;t;t
+32;;COMPENSATION.C;/module/compensation/create;URI para crear un nuevo registro de Compensación;1;;t;t;t;t;t
+33;;COMPENSATION.D;/module/compensation/delete;URI para eliminar un registro de Compensación;1;;t;t;t;t;t
+34;;COMPENSATION.R;/module/compensation/read;URI para obtener un registro de Compensación;1;;t;t;t;t;t
+35;;COMPENSATION.U;/module/compensation/update;URI para actualizar un registro de Compensación;1;;t;t;t;t;t
+36;;CONTACT.C;/module/contact/create;URI para crear un registro de contacto;1;;t;t;t;t;t
+37;;CONTACT.D;/module/contact/delete;URI para eliminar un registro de contacto;1;;t;t;t;t;t
+38;;CONTACT.U;/module/contact/update;URI para crear un registro de contacto;1;;t;t;t;t;t
+39;;DOCSCLASS.G;/module/classify/get;URI para obtener registros de documentos (solr) clasificados;1;;t;t;f;t;t
+40;;DOCSCLASS.U;/module/classify/update;URI para actualizar registros de documentos (solr) clasificados;1;;t;t;f;t;t
+41;;EPARAMS.C;/module/enterpriseParameter/create;URI. Crear nuevo registo en Empresa Parámetro;1;;t;t;f;f;f
+42;;EPARAMS.D;/module/enterpriseParameter/delete;URI. Eliminar un registro Empresa Parametro;1;;t;t;f;f;f
+43;;EPARAMS.G;/module/enterpriseParameter/get;URI. Listar empresa parametro;1;;t;t;t;t;t
+44;;EPARAMS.M;/module/enterpriseParameter/updmultiple;URI. Actualizar registro empresa Parametro multiple;1;;t;t;f;f;f
+45;;EPARAMS.RL;/module/enterpriseParameter/reload;URI. Recargar el Cache de parametros por Tipo;1;;t;t;f;f;f
+46;;EPARAMS.U;/module/enterpriseParameter/update;URI. Actualizar registro empresa Parametro;1;;t;t;f;f;f
+47;;FILE.D;/module/file/delete;URI para eliminar un registro de contenido;1;;t;t;t;t;t
+48;;FILE.G;/module/file/get;URI para obtener el listado de archivos asociados a la persona;1;;t;t;t;t;t
+49;;FILE.R;/module/file/read;Obtiene un solo archivo por id;1;;t;t;t;t;t
+50;;HANDSHAKE.C;/module/handshake/create;URI para procesar una petición de HandSHake;1;;t;t;t;t;t
+51;;INSURANCE.C;/module/insurance/create;URI para crear un nuevo registro de Seguro;1;;t;t;t;t;t
+52;;INSURANCE.D;/module/insurance/delete;URI para eliminar un registro de Seguro;1;;t;t;t;t;t
+53;;INSURANCE.R;/module/insurance/read;URI para obtener un registro de Seguro;1;;t;t;t;t;t
+54;;INSURANCE.U;/module/insurance/update;URI para actualizar un registro de Seguro;1;;t;t;t;t;t
+55;;LANGUAGE.C;/module/language/create;URI para crear un nuevo registro de Idioma en Persona/Posicion;1;;t;t;t;t;t
+56;;LANGUAGE.D;/module/language/delete;URI para procesar una petición de DELETE de Idioma para Persona;1;;t;t;t;t;t
+57;;LANGUAGE.U;/module/language/update;URI para procesar una petición de UPDATE de Idioma para Persona;1;;t;t;t;t;t
+58;;LOCATION.C;/module/location/create;URI para crear un registro de domicilio;1;;t;t;t;t;t
+59;;LOCATION.D;/module/location/delete;URI para eliminar un registro de domicilio;1;;t;t;t;t;t
+60;;LOCATION.G;/module/location/get;URI para obtener un registro de domicilio;1;;t;t;t;t;t
+61;;LOCATION.U;/module/location/update;URI para crear un registro de domicilio;1;;t;t;t;t;t
+62;;MODELRSC.C;/module/modeloRsc/create;URI Creación de Plantilla Tracking;1;;t;t;f;t;t
+63;;MODELRSC.D;/module/modeloRsc/delete;URI Eliminación/desactivación de Plantilla Tracking;1;;t;t;f;t;t
+64;;MODELRSC.G;/module/modeloRsc/get;URI Listado de Plantilla Tracking;1;;t;t;t;t;t
+65;;MODELRSC.R;/module/modeloRsc/read;URI Lectura de Plantilla Tracking;1;;t;t;t;t;t
+66;;MODELRSC.U;/module/modeloRsc/update;URI Actualización de Plantilla Tracking;1;;t;t;f;t;t
+67;;MODELRSCPOS.C;/module/modeloRscPos/create;URI Pruebas TRACKING Create;1;;t;t;f;t;t
+68;;MODELRSCPOS.D;/module/modeloRscPos/delete;URI Pruebas TRACKING Delete;1;;t;t;f;t;t
+69;;MODELRSCPOS.G;/module/modeloRscPos/get;URI Pruebas TRACKING GET;1;;t;t;t;t;t
+70;;MODELRSCPOS.R;/module/modeloRscPos/read;URI Pruebas TRACKING Read;1;;t;t;t;t;t
+71;;MODELRSCPOS.U;/module/modeloRscPos/update;URI Pruebas TRACKING Update;1;;t;t;t;t;t
+72;;MODELRSCPOSF.C;/module/modeloRscPosFase/create;Servicio que Inserta un registro de Modelo_Rsc_Posicion_Fase;1;;t;t;f;t;t
+73;;MODELRSCPOSF.D;/module/modeloRscPosFase/delete;Servicio que elimina un registro solo si es modelo principal;1;;t;t;f;t;t
+74;;MODELRSCPOSF.U;/module/modeloRscPosFase/update;Servicio que modifica un registro de Modelo_Rsc_Posicion_Fase;1;;t;t;f;t;t
+75;;MONITOR.C;/module/monitor/create;Se crean registros en la tabla monitor;1;;t;t;f;t;t
+76;;MONITOR.D;/module/monitor/delete;Se eliminan los registros en la tabla monitor y aquellos relacionados en la tabla tracking_monitor;1;;t;t;f;t;t
+77;;MONITOR.G;/module/monitor/get;Se obtienen los idPersona distintas con registros en la tabla monitor por posición;1;;t;t;f;t;t
+78;;MONITOR.U;/module/monitor/update;Se Actualizan registros en la tabla monitor por personas solicitadas;1;;t;t;f;t;t
+79;;NOTIFICATION.G;/module/notification/get;URI para obtener lista de Notificaciones;1;;t;t;t;t;t
+80;;PERMISSION.C;/admin/permission/create;URI creación de UriCode/Permiso;1;;t;t;f;f;f
+81;;PERMISSION.D;/admin/permission/delete;URI Eliminación de Permiso;1;;t;t;f;f;f
+82;;PERMISSION.G;/admin/permission/get;URI para procesar una petición de Get de permisos por Rol;1;;t;t;f;t;t
+83;;PERMISSION.U;/admin/permission/update;URI para procesar una petición de UPDATE de relación persona-permiso;1;;t;t;f;f;f
+84;;PERSCERT.C;/module/personCert/create;URI Crear un registro de Certificación Persona;1;;t;t;t;t;t
+85;;PERSCERT.D;/module/personCert/delete;URI Eliminar un registro de Certificación Persona;1;;t;t;t;t;t
+86;;PERSCERT.U;/module/personCert/update;URI Actualizar un registro de Experiencia Certificación Persona;1;;t;t;t;t;t
+87;;PERSKILL.C;/module/personSkill/create;URI para crear un registro de contacto;1;;t;t;t;t;t
+88;;PERSKILL.D;/module/personSkill/delete;URI para eliminar un registro de contacto;1;;t;t;t;t;t
+89;;PERSKILL.U;/module/personSkill/update;URI para crear un registro de contacto;1;;t;t;t;t;t
+90;;PERSON.CM;/module/curriculumManagement/createManual;URI para crear nuevo usuario en sistema Manualmente;1;;t;t;f;t;t
+91;;PERSON.D;/module/curriculumManagement/delete;URI para borrar un registro de persona;1;;t;t;f;t;t
+92;;PERSON.G;/module/curriculumManagement/get;URI para obtener listado de personas según parametros;1;;t;t;f;t;t
+93;;PERSON.P;/module/applicant/setResumePublication;URI para publicar un cv personal;1;;t;t;t;t;t
+94;;PERSON.PW;/admin/management/updpwd;URI para reemplazar la contraseña de acceso;1;;t;t;t;t;t
+95;;PERSON.R;/module/curriculumManagement/read;URI para obtener un registro de persona;1;;t;t;t;t;t
+96;;PERSON.TR;/module/curriculumManagement/tracking;URI para obtener procesos de persona;1;;t;t;t;t;t
+97;;PERSON.U;/module/curriculumManagement/update;URI para actualizar un registro existente de persona;1;;t;t;t;t;t
+98;;PLAN.C;/module/plan/create;URI para crear un nuevo registro de Plan;1;;t;t;t;t;t
+99;;PLAN.D;/module/plan/delete;URI para eliminar un registro de Plan;1;;t;t;t;t;t
+100;;PLAN.R;/module/plan/read;URI para obtener un registro de Plan;1;;t;t;t;t;t
+101;;PLAN.U;/module/plan/update;URI para actualizar un registro de Plan;1;;t;t;t;t;t
+102;;POSITIONCERT.C;/module/positionCert/create;URI Crear un registro de Certificación Posición;1;;t;t;f;t;f
+103;;POSITIONCERT.D;/module/positionCert/delete;URI Eliminar un registro de Certificación Posición;1;;t;t;f;t;f
+104;;POSITIONCERT.U;/module/positionCert/update;URI Actualizar un registro de Experiencia Certificación Posición;1;;t;t;f;t;f
+105;;POSITIONCOMPETENCE.U;/module/positionCompet/update;URI Actualizar un registro de Competencia Posición;1;;t;t;f;t;f
+106;;POSITIONSKILL.C;/module/positionSkill/create;URI para procesar una petición de CREATE de Habilidad Posición;1;;t;t;f;t;f
+107;;POSITIONSKILL.D;/module/positionSkill/delete;URI para procesar una petición de DELETE de Habilidad Posición;1;;t;t;f;t;f
+108;;POSITIONSKILL.G;/module/positionSkill/get;URI para procesar una petición de GET de Habilidad Posición;1;;t;t;f;t;f
+109;;POSITIONSKILL.U;/module/positionSkill/update;URI para procesar una petición de UPDATE de Habilidad Posición;1;;t;t;f;t;f
+110;;POSTULANT.G;/module/postulante/get;Listado de Candidatos/pre-candiatos;1;;t;f;f;t;t
+111;;POSTULANT.U;/module/postulante/update;actualización de Candidatos/pre-candiatos;1;;t;f;f;t;t
+112;;PROFILE.A;/module/profile/updateAssociation;URI para procesar una asociación entre posición y perfil;1;;t;t;f;t;f
+113;;PROFILE.CPB;/module/profile/createpublic;URI para crear un nuevo registro de Perfil accesable por todos las Apps (admin-Dothr);1;;t;f;f;f;f
+114;;PROFILE.CPV;/module/profile/createprivate;URI para crear un nuevo registro de Perfil accesable por solo por App Propietaria;1;;t;t;f;f;f
+115;;PROFILE.D;/module/profile/delete;URI para eliminar un registro de Perfil;1;;t;t;f;f;f
+116;;PROFILE.G;/module/profile/get;URI para obtener un registro de Perfil;1;;t;t;f;t;f
+117;;PROFILE.R;/module/profile/read;URI para leer nuevo registro de Perfil;1;;t;t;f;t;f
+118;;PROFILE.U;/module/profile/update;URI para actualizar un registro de Perfil;1;;t;t;f;t;f
+119;;PROFILETEX.C;/module/profile/textcreate;URI para crear un nuevo registro de Texto Ngram;1;;t;t;f;t;f
+120;;PROFILETEX.D;/module/profile/textdelete;URI para eliminar un registro de Texto Ngram;1;;t;t;f;t;f
+121;;PROFILETEX.G;/module/profile/textget;URI para obtener listado de Texto Ngram;1;;t;t;f;t;f
+122;;PROFILETEX.U;/module/profile/textupdate;URI para actualizar un registro de Texto Ngram;1;;t;t;f;t;f
+123;;RECLASIFY.T;/module/task/reClassification;URI para Iniciar un proceso de reclasificación en Solr;1;;t;t;f;f;f
+124;;RECLASSDOCS.LD;/admin/management/lastDateReclassDocs;URI para obtener última fecha del proceso de reclasificacion de CVs;1;;t;t;f;f;f
+125;;REFERENCE.C;/module/reference/create;URI para crear un nuevo registro de Referencia;1;;t;t;t;t;f
+126;;REFERENCE.D;/module/reference/delete;URI para eliminar un registro de Referencia;1;;t;t;t;t;f
+127;;REFERENCE.R;/module/reference/read;URI para obtener un registro de Referencia;1;;t;t;t;t;f
+128;;REFERENCE.U;/module/reference/update;URI para actualizar un registro de Referencia;1;;t;t;t;t;f
+129;;RELOADCORESOLR.LD;/admin/management/lastDateReLoadCoreSolr;URI para obtener última fecha del proceso reload core solr;1;;t;t;f;f;f
+130;;RELOADCORESOLR.T;/module/task/reloadCoreSolr;URI para aplicar el proceso Reload Core Solr;1;;t;f;f;f;f
+131;;REMODELING.LD;/admin/management/lastDateRemodel;URI para obtener última fecha del proceso de remodelación;1;;t;t;f;f;f
+132;;REMODELING.T;/module/task/reModel;URI para Iniciar un proceso de Remodelación de DocumentosClasificados Solr;1;;t;f;f;f;f
+133;;REPORT.C;/module/report/create;URI para generación de Reporte/Archivo/PDF dependiendo sus parámetros;1;;t;t;f;t;t
+134;;ROL.AP;/admin/rol/assignPerms;URI para actualizar el campo de activo;1;;t;t;f;t;f
+135;;ROL.C;/admin/rol/create;URI. Crea nuevo registro de Rol;1;;t;t;f;t;f
+136;;ROL.D;/admin/rol/delete;URI. Elimina registro de Rol;1;;t;t;f;t;f
+137;;ROL.G;/admin/rol/get;URI para obtener un listado de roles;1;;t;t;f;t;t
+138;;ROL.U;/admin/rol/update;URI. Actualiza registro de Rol;1;;t;t;f;t;f
+139;;SALARY.C;/module/salary/create;URI para crear un nuevo registro de Salario;1;;t;t;t;t;f
+140;;SALARY.D;/module/salary/delete;URI para eliminar un registro de Salario;1;;t;t;t;t;f
+141;;SALARY.R;/module/salary/read;URI para obtener un registro de Salario;1;;t;t;t;t;f
+142;;SALARY.U;/module/salary/update;URI para actualizar un registro de Salario;1;;t;t;t;t;f
+143;;SETTLEMENT.C;/module/settlement/create;URI para actualizar un registro de;1;;t;t;t;t;t
+144;;SETTLEMENT.G;/module/settlement/get;Obtiene campos de Estado Municipio y arreglo de asentamientos relacionados con el Código Postal solicitado;1;;t;t;t;t;t
+145;;SYNCDOCS.LD;/admin/management/lastDateSyncDocs;URI para obtener última fecha del proceso de sincronización de documentos;1;;t;t;f;f;f
+146;;SYNCHRONIZE.T;/module/task/syncClassDocs;URI para Iniciar un proceso de Sincronización de DocumentosClasificados Solr-DB;1;;t;t;f;f;f
+147;;TIPOPERMISO.G;/admin/tipoPermiso/get;URI para obtener un listado de tipo permiso;1;;t;t;f;f;f
+148;;TOKENUPLOAD.C;/module/classify/loadTokens;URI para crear documentos por medio de palabras clave y subirlos a Solr;1;;t;t;f;f;f
+149;;TRACKMONITOR.C;/module/trackMonitor/create;URI Lectura de Tracking Monitor;1;;t;f;f;t;f
+150;;TRACKMONITOR.D;/module/trackMonitor/delete;URI Eliminación/desactivación Tracking Monitor;1;;t;f;f;t;t
+151;;TRACKMONITOR.R;/module/trackMonitor/read;URI Lectura de Tracking Monitor;1;;t;f;f;t;t
+152;;TRACKMONITOR.U;/module/trackMonitor/update;URI Actualización Tracking Monitor;1;;t;f;f;t;t
+153;;TRACKPOSTULANT.C;/module/trackPostulante/create;Creación de Tracking Persona;1;;t;f;f;t;f
+154;;TRACKPOSTULANT.CF;/module/trackPostulante/confirm;URI que confirma la adicion del candidato a la posición.;1;;t;f;f;t;t
+155;;TRACKPOSTULANT.D;/module/trackPostulante/delete;Eliminación de Tracking Persona;1;;t;f;f;t;t
+156;;TRACKPOSTULANT.G;/module/trackPostulante/get;Listado Tracking Persona;1;;t;t;t;t;t
+157;;TRACKPOSTULANT.R;/module/trackPostulante/read;Lectura de Tracking Persona;1;;t;f;f;t;t
+158;;TRACKPOSTULANT.RLB;/module/trackPostulante/rollback;Des-hacer de Tracking Persona;1;;t;f;f;t;t
+159;;TRACKPOSTULANT.U;/module/trackPostulante/update;Actualizado de Tracking Persona;1;;t;f;f;t;t
+160;;VACANCY.C;/module/vacancy/create;URI para crear un nuevo registro de posición;1;;t;t;f;t;f
+161;;VACANCY.CL;/module/vacancy/clone;URI para clonar los registros asociados a una posición;1;;t;t;f;t;f
+162;;VACANCY.D;/module/vacancy/delete;URI para eliminar un registro de posición;1;;t;t;f;t;f
+163;;VACANCY.DC;/module/vacancy/dataconf;URI que obtiene dataconf de posición;1;;t;t;f;t;t
+164;;VACANCY.G;/module/vacancy/get;URI para obtener registro(s) de posición;1;;t;t;f;t;t
+165;;VACANCY.P;/module/vacancy/setVacancyPublication;URI para publicar una posición;1;;t;t;f;t;f
+166;;VACANCY.R;/module/vacancy/read;URI para leer un registro de posición;1;;t;t;f;t;t
+167;;VACANCY.U;/module/vacancy/update;URI para actualizar un registro de posición;1;;t;t;f;t;t
+168;;VACANCYTEXT.C;/module/vacancyText/create;URI para crear un nuevo registro de función o texto asociado al perfil;1;;t;t;f;t;t
+169;;VACANCYTEXT.D;/module/vacancyText/delete;URI para eliminar un registro de función o texto asociado al perfil;1;;t;t;f;t;f
+170;;VACANCYTEXT.U;/module/vacancyText/update;URI para actualizar un registro de función o texto asociado al perfil;1;;t;t;f;t;f
+171;;VACATION.C;/module/vacation/create;URI para crear un nuevo registro de Vacaciones;1;;t;t;t;t;t
+172;;VACATION.D;/module/vacation/delete;URI para eliminar un registro de Vacaciones;1;;t;t;t;t;f
+173;;VACATION.R;/module/vacation/read;URI para obtener un registro de Vacaciones;1;;t;t;t;t;f
+174;;VACATION.U;/module/vacation/update;URI para actualizar un registro de  Vacaciones;1;;t;t;t;t;f
+175;;VOUCHER.C;/module/voucher/create;URI para crear un nuevo registro de Vales;1;;t;t;t;t;f
+176;;VOUCHER.D;/module/voucher/delete;URI para eliminar un registro de Vales;1;;t;t;t;t;f
+177;;VOUCHER.R;/module/voucher/read;URI para obtener un registro de Vales;1;;t;t;t;t;f
+178;;VOUCHER.U;/module/voucher/update;URI para actualizar un registro de  Vales;1;;t;t;t;t;f
+179;;WORKEXP.C;/module/workExperience/create;URI para crear un nuevo registro de Experiencia laboral;1;;t;t;t;t;f
+180;;WORKEXP.D;/module/workExperience/delete;URI para eliminar un registro de Experiencia laboral;1;;t;t;t;t;f
+181;;WORKEXP.G;/module/workExperience/get;URI para obtener listado de Experiencia laboral;1;;t;t;t;t;f
+182;;WORKEXP.U;/module/workExperience/update;URI para actualizar un registro de Experiencia laboral;1;;t;t;t;t;f
+183;;Mi Cuenta;;/Mi Cuenta;2;;t;t;t;t;t
+184;183;Curriculum Vitae;#/cvpw;/Mi Cuenta/Curriculum Vitae;2;;t;t;t;t;f
+185;183;Cambio de Contraseña;#/vccn;/Mi Cuenta/Cambio de Contraseña;2;;t;t;t;t;t
+186;;Talento;;/Talento;2;;t;t;f;t;f
+187;186;Crear nuevo;#/cvadd;/Talento/Crear nuevo;2;;t;f;f;t;f
+188;186;Buscar CV;#/cvfind;/Talento/Buscar CV;2;;t;t;f;t;f
+189;;Modelos RSC;;/Modelos RSC;2;;t;t;f;t;f
+190;189;Nuevo;#/nwtemplate;/Modelos RSC/Nuevo;2;;t;t;f;t;f
+191;189;Biblioteca;#/lstemplates;/Modelos RSC/Biblioteca;2;;t;t;f;t;f
+192;;Posición;;/Posición;2;;t;t;f;t;t
+193;192;Perfiles (proto);#/prfhome;/Posición/Perfiles;2;;f;f;f;f;f
+194;192;Nueva posición;#/vnew;/Posición/Nueva posición;2;;t;t;f;t;f
+195;192;Posiciones creadas;#/vchome;/Posición/Posiciones creadas;2;;t;t;f;t;f
+196;192;Posiciones asignadas;#/vcMonitor;/Posición/Posiciones asignadas;2;;t;t;f;f;t
+197;;Administración;;/Administración;2;;t;t;f;f;f
+198;197;Carga Masiva;;/Administración/Carga Masiva;2;;f;f;f;f;f
+199;198;Semillas Modelo;#/seeds;/Administración/Carga Masiva/Semillas Modelo;2;;f;f;f;f;f
+200;198;Archivo Csv;#/csvupl;/Administración/Carga Masiva/Archivo Csv;2;;f;f;f;f;f
+201;197;Modelo;;/Administración/Modelo;2;;t;t;f;f;f
+202;201;Reload Core Solr;#/vprcs/3;/Administración/Modelo/Reload Core Solr;2;;t;f;f;f;f
+203;201;Reclasificar;#/vprcs/4;/Administración/Modelo/Reclasificar;2;;t;t;f;f;f
+204;201;Remodelar;#/vprcs/2;/Administración/Modelo/Remodelar;2;;t;f;f;f;f
+205;197;Empresa;;/Administración/Empresa;2;;f;f;f;f;f
+206;205;Lista de Empresas;#/ehome;/Administración/Empresa/Lista de Empresas;2;;f;f;f;f;f
+207;205;CV Empresarial;#/eupd;/Administración/Empresa/CV Empresarial;2;;f;f;f;f;f
+208;197;Documentos;;/Administración/Documentos;2;;t;t;f;f;t
+209;208;Clasificados;#/vdc;/Administración/Documentos/Clasificados;2;;t;t;f;f;t
+210;208;Sincronización;#/vprcs/1;/Administración/Documentos/Sincronización;2;;t;t;f;f;t
+211;197;Roles y Permisos;;/Administración/Roles y Permisos;2;;t;t;f;f;f
+212;211;Permisos;#/perm;/Administración/Roles y Permisos/Permisos;2;;t;t;f;f;f
+213;211;Roles;;/Administración/Roles y Permisos/Roles;2;;t;t;f;f;f
+214;213;Rol;#/rol;/Administración/Roles y Permisos/Roles/Rol;2;;t;t;f;f;f
+215;213;Asignar Permisos;#/asgperm;/Administración/Roles y Permisos/Roles/Asignar Permisos;2;;t;t;f;f;f
+216;197;Catálogos;#/catadm;/Administración/Catálogos;2;;f;f;f;f;f
+217;197;Empresa Parametro;#/eparam;/Administración/Empresa Parametro;2;;t;t;f;f;f

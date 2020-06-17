@@ -1,0 +1,24 @@
+
+ ////////////////////////////////////////////////////// 
+ Método: create	uriCode: 	endPoint: /module/linkedin/create	javaClass: SocialApiAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....

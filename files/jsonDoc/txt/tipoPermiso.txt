@@ -1,0 +1,24 @@
+
+ ////////////////////////////////////////////////////// 
+ Método: get	uriCode: TIPOPERMISO.G	endPoint: /admin/tipoPermiso/get	javaClass: TipoPermisoAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....

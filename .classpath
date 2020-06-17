@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Log4j"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Gson"/>
+	<classpathentry kind="lib" path="/home/netto/app/glassfish4/glassfish/modules/cglib.jar"/>
+	<classpathentry kind="lib" path="/home/netto/app/glassfish4/glassfish/modules/guava.jar"/>
+	<classpathentry kind="lib" path="/home/netto/app/glassfish4/glassfish/modules/hk2-api.jar"/>
+	<classpathentry kind="lib" path="/home/netto/app/glassfish4/glassfish/modules/hk2-locator.jar"/>
+	<classpathentry kind="lib" path="/home/netto/app/glassfish4/glassfish/modules/hk2-utils.jar"/>
+	<classpathentry kind="lib" path="/home/netto/app/glassfish4/glassfish/modules/javax.inject.jar"/>
+	<classpathentry kind="lib" path="/home/netto/app/glassfish4/glassfish/modules/javax.ws.rs-api.jar"/>
+	<classpathentry kind="lib" path="/home/netto/app/glassfish4/glassfish/modules/osgi-resource-locator.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jersey2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/CommonLang"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ApachePoi"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/XmlBeans"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Poi"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jxl"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Postgre9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/iText"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-openjdk-amd64">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

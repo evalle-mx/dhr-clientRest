@@ -1,0 +1,24 @@
+
+ ////////////////////////////////////////////////////// 
+ Método: getdates	uriCode: CALENDAR.GD	endPoint: /module/calendar/getdates	javaClass: CalendarioAdapterRest
+
+		Json entrada
+		------------------------------
+		{}
+
+
+		Json entrada Ejemplo
+		------------------------------
+		{}
+
+
+		Json salida
+		------------------------------
+		   [{"name": ", ....}]
+
+		Json salida ejemplo
+		------------------------------
+		a) éxito.
+			[-------]
+
+		b) ....

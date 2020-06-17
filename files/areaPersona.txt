@@ -1,0 +1,760 @@
+
+==> Json: {"idPersona":"10","areaPersona":[{"principal":"true","idArea":"5"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"11","areaPersona":[{"principal":"true","idArea":"5"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"12","areaPersona":[{"principal":"true","idArea":"5"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"13","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"14","areaPersona":[{"principal":"true","idArea":"22"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"15","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"16","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"17","areaPersona":[{"principal":"true","idArea":"9"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"18","areaPersona":[{"principal":"true","idArea":"9"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"19","areaPersona":[{"principal":"true","idArea":"20"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"20","areaPersona":[{"principal":"true","idArea":"20"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"21","areaPersona":[{"principal":"true","idArea":"21"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"22","areaPersona":[{"principal":"true","idArea":"21"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"23","areaPersona":[{"principal":"true","idArea":"21"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"24","areaPersona":[{"principal":"true","idArea":"4"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"25","areaPersona":[{"principal":"true","idArea":"5"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"26","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"27","areaPersona":[{"principal":"true","idArea":"9"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"28","areaPersona":[{"principal":"true","idArea":"5"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"29","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"30","areaPersona":[{"principal":"true","idArea":"17"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"31","areaPersona":[{"principal":"true","idArea":"3"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"32","areaPersona":[{"principal":"true","idArea":"3"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"33","areaPersona":[{"principal":"true","idArea":"3"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"34","areaPersona":[{"principal":"true","idArea":"19"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"35","areaPersona":[{"principal":"true","idArea":"20"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"36","areaPersona":[{"principal":"true","idArea":"17"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"37","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"38","areaPersona":[{"principal":"true","idArea":"15"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"39","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"40","areaPersona":[{"principal":"true","idArea":"17"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"41","areaPersona":[{"principal":"true","idArea":"9"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"42","areaPersona":[{"principal":"true","idArea":"19"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"43","areaPersona":[{"principal":"true","idArea":"17"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"44","areaPersona":[{"principal":"true","idArea":"21"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"45","areaPersona":[{"principal":"true","idArea":"13"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"46","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"47","areaPersona":[{"principal":"true","idArea":"21"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"48","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"49","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"50","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"51","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"52","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"53","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"54","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"55","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"56","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"57","areaPersona":[{"principal":"true","idArea":"9"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"58","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"59","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"60","areaPersona":[{"principal":"true","idArea":"22"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"61","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"62","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"63","areaPersona":[{"principal":"true","idArea":"21"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"64","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"65","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"66","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"67","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"68","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"69","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"70","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"71","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"72","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"73","areaPersona":[{"principal":"true","idArea":"22"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"74","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"75","areaPersona":[{"principal":"true","idArea":"9"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"76","areaPersona":[{"principal":"true","idArea":"13"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"77","areaPersona":[{"principal":"true","idArea":"13"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"78","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"79","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"80","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"81","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"82","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"83","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"84","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"85","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"86","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"87","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"88","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"89","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"90","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"91","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"92","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"93","areaPersona":[{"principal":"true","idArea":"14"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"94","areaPersona":[{"principal":"true","idArea":"10"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"95","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"96","areaPersona":[{"principal":"true","idArea":"8"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"97","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"98","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"99","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"100","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"101","areaPersona":[{"principal":"true","idArea":"8"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"102","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"103","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"104","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"105","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"106","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"107","areaPersona":[{"principal":"true","idArea":"6"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"108","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"109","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"110","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"111","areaPersona":[{"principal":"true","idArea":"22"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"112","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"113","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"114","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"115","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"116","areaPersona":[{"principal":"true","idArea":"16"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"117","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"118","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"119","areaPersona":[{"principal":"true","idArea":"9"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"120","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"121","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"122","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"123","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"124","areaPersona":[{"principal":"true","idArea":"22"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"125","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"126","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"127","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"128","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"129","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"130","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"131","areaPersona":[{"principal":"true","idArea":"17"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"132","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"133","areaPersona":[{"principal":"true","idArea":"22"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"134","areaPersona":[{"principal":"true","idArea":"7"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"135","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"136","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"137","areaPersona":[{"principal":"true","idArea":"7"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"138","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"139","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"140","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"141","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"142","areaPersona":[{"principal":"true","idArea":"8"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"143","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"144","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"145","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"146","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"147","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"148","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"149","areaPersona":[{"principal":"true","idArea":"17"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"150","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"151","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"152","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"153","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"154","areaPersona":[{"principal":"true","idArea":"9"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"155","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"156","areaPersona":[{"principal":"true","idArea":"1"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"157","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"158","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"159","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"160","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
+
+==> Json: {"idPersona":"161","areaPersona":[{"principal":"true","idArea":"18"}],"idEmpresaConf":"1"}
+==> URI: /module/curriculumManagement/update
+<== response:
+[]
